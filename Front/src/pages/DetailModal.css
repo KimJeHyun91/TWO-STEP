@@ -1,0 +1,260 @@
+
+
+.fade-in {
+  animation: fadeInModal 0.5s ease forwards;
+  
+}
+
+.fade-out {
+  animation: fadeOutModal 0.5s ease forwards;
+}
+
+@keyframes fadeInModal {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOutModal {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+/* 탭 및 페이지 내용 전환용 fade */
+.content-fade-in {
+  animation: contentFadeIn 0.3s ease forwards;
+}
+
+.content-fade-out {
+  animation: contentFadeOut 0.3s ease forwards;
+}
+
+@keyframes contentFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes contentFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ModalTopWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.ModalCloseWrapper {
+  display: flex;
+}
+
+/* 수정: TabWrapper를 왼쪽 정렬 */
+.TabWrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.TabButton {
+  padding: 0px 20px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin: 0 8px;
+  transition: all 0.3s;
+}
+
+.TabButton:hover {
+  color: #000;
+}
+
+.ActiveTab {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Modal 상단 닫기버튼 */
+.ModalCloseWrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+/* 이미지 영역 */
+.ModalImageWrapper {
+  text-align: center;
+  padding: 5px;
+}
+
+.MapImage {
+  width: 90%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Modal Body */
+.Modalbody {
+  padding: 20px;
+}
+
+/* 코스 제목 & 길찾기 버튼 */
+.CourseInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* 길찾기 버튼 */
+.FindRouteBtn {
+  background-color: #469af3;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 코스 정보 테이블 */
+.CourseTable {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.CourseTable th, .CourseTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 난이도 표시 Tag */
+.Tag {
+  padding: 4px 8px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+}
+
+.Easy {
+  background-color: #28a745;
+}
+
+.Medium {
+  background-color: #ffc107;
+}
+
+.Hard {
+  background-color: #e62020;
+}
+
+/* 리뷰 섹션 */
+.ReviewSection {
+  margin-top: 30px;
+}
+
+/* 리뷰 추가, 자세히 버튼 */
+.ReviewButtons {
+  display: flex;
+  align-items: center;
+}
+
+.MoreLink{
+  background: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.reload{
+  background: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 리뷰 작성 버튼 */
+.WriteBtn {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+/* 리뷰 말풍선 */
+.SpeechBubble {
+  background: #ffffff !important;
+  border: 0.1px solid #333;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 20px;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+.SpeechBubble.CutText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+.WriteBtn:hover {
+  color: #490707; /* 마우스 오버시 살짝 진하게 */
+}
+
+/* 페이지네이션 Footer */
+.PaginationFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* DetailModal 높이 커스텀 */
+.detail-modal-custom .modal-dialog {
+  max-height: 90vh;  /* 화면 높이의 90%까지 */
+  height: 90vh;      /* 원하는 높이 설정 */
+}
+
+.detail-modal-custom .modal-content {
+  height: 100%;
+}
+
+

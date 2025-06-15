@@ -1,0 +1,102 @@
+.login-box {
+  width: 450px; /* 전체적인 로그인 창 너비*/
+  height: 650px; /* 전체적인 로그인 창 높이 */
+  display: flex; /* 플렉스 박스로 정럴 (기본 가로) */
+  flex-direction: column; /* 세로 방향으로 쌓기 */
+  align-items: center; /* 중앙 정렬 */
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px; /* 위쪽 간격 띄우기 */
+}
+
+/* 국립공원 제목  */
+.login-title {
+  padding-top: 10px; /* 제목위 간격 띄우기 */
+  align-items: center;
+}
+
+/* 곰 이미지 */
+.login-box img {
+  width: 320px;              /* 모달 내부 너비에 맞춤 */
+  height: 320px;             /* 비율 유지 */
+  object-fit: contain;      /* 이미지 비율 유지하면서 잘리지 않게 */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* 전체 로그인 폼 */
+.login-form {
+  display: flex; /* 아이디, 비번창, 로그인 버튼 한줄로 가로 정렬*/
+  gap: 10px; /* 서로 사이 간격 */
+  align-items: stretch; /* 높이 같게 늘리기 */
+  margin-top: 1px;
+  margin-top: 10px;
+}
+
+/* 아이디창, 비번창 */
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  width: 200px;
+  height: 50px;
+}
+
+/* 로그인 버튼 */
+.login-submit {
+  width: 100px;
+  height: 80px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인 etc (회원가입, 관리자페이지 이동) */
+.login-etc {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.link-text {
+  color: black;
+  text-decoration: none;
+  margin: 0 14px;
+}
+
+.link-text:hover {
+  color: green !important;
+  text-decoration: none;
+  margin: 0 14px;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  color: #ccc;
+}
+
+.login input {
+  height: 36px;
+  padding: 8px;
+  font-size: 16px; /* 입력한 글자 크기 */
+  border: 1px solid #ccc; /* 테두리 선 두께 및 색 */
+  border-radius: 6px;
+}
+
+/* placeholder 스타일 */
+.login input::placeholder {
+  font-size: 13px;   /* placeholder 글씨 크기 */
+}
+

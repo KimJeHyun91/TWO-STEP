@@ -1,0 +1,155 @@
+
+
+.member {
+  height: 100vh;
+  width: 1600px;
+  background-color: white;
+  display: flex;  /* 한줄 정렬 */
+  align-items: center; /* 세로 정렬 */
+  flex-direction: column; /* 정렬방향 세로 */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  
+}
+
+/* 회원가입 인사말 */
+.join-title {
+  padding-top: 10px;
+}
+
+/* 곰 이미지 */
+.img {
+  height: auto;         /* 고정된 세로 해제 */
+  width: 600px;         /* 입력폼과 같은 너비 */
+  max-width: 100%;      /* 혹시 몰라서 화면 줄어들면 반응형도 됨 */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  object-fit: contain;  /* 이미지 찌그러지지 않게 */
+  width: auto;        
+  height: 580px;        
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* 회원가입 기재사항 */
+.join-write {
+  display: flex;
+  align-items: flex-start; 
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* label 글씨 조절 */
+label {
+  font-weight: bold;
+  font-size: 16px; 
+}
+
+/* input 오른쪽으로 */
+.join-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 400px;  
+}
+
+.id-check-row {
+  display: flex;
+  gap: 10px;
+}
+
+.id-check-row input[type="text"] {
+  flex: 1;
+}
+
+/* input 스타일 */
+.join-input input {
+  height: 36px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  
+}
+
+/* input창 글씨 크기 */
+input::placeholder {
+  font-size: 13px; 
+}
+
+/* 중복확인 버튼은 인라인 정렬 */
+.double-id {
+  width: 100px;
+  height: 36px;
+  margin-top: 0px;
+  background-color: green;
+  color: white;
+  border: none !important; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;  
+  line-height: 1;
+}
+
+/* 주소 선택박스 */
+.address-select {
+  flex: 1;
+  height: 36px; /* input과 똑같이 맞추기 */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box; 
+}
+
+/* 주소 선택박스 한줄로 */ 
+.address-row {
+  display: flex;
+  gap: 10px;  
+  width: 100%;
+  font-weight: bold;
+}
+
+/* 이메일 선택박스 */
+.email-box select {
+  height: 36px; /* input과 똑같이 맞추기 */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* 아래 버튼들 정렬 */
+.member-button {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  gap: 12px;                /* 버튼 사이 간격 */
+  margin-top: 20px;
+}
+
+.member-button button{
+  margin: 10px 8px;
+  padding: 8px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

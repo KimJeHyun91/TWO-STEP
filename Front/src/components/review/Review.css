@@ -1,0 +1,85 @@
+.ReviewTextArea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+  
+  .ReviewTextArea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .Delete {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  .ReviewRow {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -15px;
+  }
+  
+  .ReviewRadio {
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+  
+  .ReviewTextWrapper {
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  
+  .SpeechBubble {
+    background: #ffffff !important;
+    border: 0.1px solid #333;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  
+    /* ✅ 여러 줄 줄바꿈 허용 */
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  
+  .ScrollableBody {
+    max-height: 300px; /* 필요 시 조정 가능 */
+    overflow-y: auto;
+  }
+  
+  .PaginationWrapper {
+    margin: 0 auto;
+  }
+  
+  .PaginationButton {
+    margin: 0 3px;
+  }
+  
+.PaginationButton, .PaginationNav {
+  background: none;       /* ✅ 배경 제거 */
+  border: none;           /* ✅ 테두리 제거 */
+  color: black;           /* ✅ 글자색 */
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.PaginationButton:hover, .PaginationNav:hover {
+  font-weight: bold;
+  color: #333;            /* ✅ hover 시 강조 */
+}
+
+.ActivePage {
+  font-weight: bold;      /* ✅ 현재 페이지 강조 */
+  text-decoration: underline;
+}

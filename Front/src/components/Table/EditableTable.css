@@ -1,0 +1,23 @@
+.Ctable{
+    padding:30px;
+    height: 500px;
+    overflow-y : auto;
+}
+
+.CRow{
+    padding:30px;
+}
+
+.sticky-header{
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index:10;
+
+}
+
+.sticky-header th{
+    white-space: nowrap;
+    word-break: keep-all;
+    vertical-align: middle  ;
+}

@@ -1,0 +1,82 @@
+.searching-style {
+    overflow-y: auto;
+    display: flex;
+    border-bottom: 0.1px solid lightgray;
+    font-size: 16px;
+}
+
+.searching-input-box {
+    margin: 5% 0% 5% 3%;
+    width: 70%;
+    height: 30px;
+    border: 0.3px solid black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 86%;
+    font-size: 12px;
+}
+
+.filter-button {
+    padding: 6px 8px;
+    height: 30px;
+    margin: 5% 0% 5% 1%;
+    background-color: #86ae27;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.search-button {
+    padding: 6px 8px;
+    height: 30px;
+    margin: 5% 3% 5% 1%;
+    background-color: #86ae27;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* 📦 필터 박스 전체 스타일 */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.filter-box {
+    width: 90%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* ✅ 적용 버튼을 우측 하단에 배치 */
+.apply-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px 5px 5px 0px;
+}
+
+.apply-button {
+    background-color: #86ae27;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

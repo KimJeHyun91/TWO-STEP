@@ -1,0 +1,85 @@
+.searching-list {
+    height: 130px;
+    padding: 3%;
+    border-bottom: 0.1px solid lightgray;
+    border-top: 0.1px solid lightgray;
+    font-size: 16px;
+}
+
+.searching-box {
+    height: 130px;
+    padding: 5%;
+    border-bottom: 0.1px solid lightgray;
+    border-top: 0.1px solid lightgray;
+    background-color: lightgray;
+    font-size: 16px;
+}
+
+.trail-info {
+    margin: 5px 3px;
+    padding: 4px 5px;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 0.2px solid gray;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.Easy {
+    background-color: #28a745;
+    font-size: 10px;
+    color: white;
+    height: 12px;
+    text-align: center;
+    padding: 1px 4px 2px 3px;
+    border-radius: 999px;
+  }
+  
+.Medium {
+    background-color: #ffc107;
+    font-size: 10px;
+    color: white;
+    height: 12px;
+    text-align: center;
+    padding: 1px 4px 2px 3px;
+    border-radius: 999px;
+ }
+
+.Hard {
+    background-color: #e62020;
+    font-size: 10px;
+    color: white;
+    height: 12px;
+    text-align: center;
+    padding: 1px 4px 2px 3px;
+    border-radius: 999px;
+ }
+
+.track-name {
+    font-weight: bold;
+    color: #3796f0;
+}
+
+.track-name-info {
+    color: gray;
+    font-size: 14px;
+}
+
+.track-detail {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.track-length {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.track-info-data {
+    color: #333;
+}
+
+.track-info-col {
+    color: #555;
+}

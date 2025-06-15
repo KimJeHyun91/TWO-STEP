@@ -1,0 +1,73 @@
+.ParkInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ReviewSection {
+  margin-top: 1.5rem;
+}
+
+/* 날씨 섹션 */
+.WeatherSection {
+  margin-top: 20px;
+}
+
+.WeatherTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.WeatherTag {
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.ParkInfoBubble {
+  background: white ;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+  border: 0.5px solid gray;
+}
+
+.ParkContact {
+  padding-left: 3%;
+  margin: 1rem 0;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+}
+
+.SpeechBubble {
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.ModalImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.MapImage {
+  display: block;
+  width: 95%;
+  border-radius: 20px;
+}
+
+.Modalbody {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}

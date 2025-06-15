@@ -1,0 +1,25 @@
+x`x`# node_modules: 의존성 모듈
+node_modules/
+
+# 빌드 파일
+build/
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# 운영체제 특화 파일
+.DS_Store
+Thumbs.db
+
+# 테스트 관련
+coverage/
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 로그
+*.log

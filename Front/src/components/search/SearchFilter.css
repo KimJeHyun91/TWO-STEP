@@ -1,0 +1,96 @@
+.search-filter-container {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.filter-section {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.filter-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.filter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.filter-item {
+    margin-right: 12px;
+}
+
+.filter-label {
+    margin-right: 6px;
+    font-size: 10px;
+}
+
+.filter-select {
+    font-size: 12px;
+}
+
+.filter-slider {
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 12px;
+}
+
+.slider-value-small {
+    font-size: 10px;
+    color: #777;
+    text-align: right;
+}
+
+/* 새로 추가 - 코스 난이도 체크박스 */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 16px 0;
+}
+
+.round-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 12px;
+}
+
+.round-checkbox {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    appearance: none;
+    border: 1.5px solid #86ae27;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.round-checkbox:checked {
+    background-color: #86ae27;
+}
+
+/* 수평 정렬 + space-between */
+.space-between {
+    justify-content: space-between;
+}
+
+/* 슬라이더 값 인라인 (오른쪽 배치용) */
+.slider-value-inline {
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
