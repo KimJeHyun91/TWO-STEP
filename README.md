@@ -25,7 +25,6 @@
 - 로그인 상태에 따라 다른 화면을 제공하며, 관리자 계정으로 접속 시 모든 데이터를 관리할 수 있는 별도의 관리자 페이지로 이동합니다. 
 
 **🛠️ 기술 스택**
-구분	기술
 - Frontend : React, JavaScript, VS Code, Node.js 
 - Backend	: Spring Boot (STS4), Spring Data JPA, Lombok, Temurin (OpenJDK17) 
 - Database : PostgreSQL, DBeaver 
